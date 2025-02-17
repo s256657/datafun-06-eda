@@ -38,6 +38,7 @@ import pyarrow
 ```
 4. Pull data set and test for confirmation
 - I used a pre-created dataset through seaborn to perform analysis on
+- Raw data also uploaded here [MPG Data] (https://github.com/s256657/datafun-06-eda/blob/main/mpg.csv)
 ```
 mpg_df: pd.DataFrame = sns.load_dataset('mpg')
 mpg_df.columns
