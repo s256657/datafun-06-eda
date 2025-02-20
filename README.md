@@ -45,3 +45,21 @@ mpg_df.columns
 mpg_df.head()
 ```
 - This should display the columns with a small section of the data to confirm it is pulled correctly.
+
+## Initial Descriptive statistics and Data distribution
+1. Check data for types in columns
+2. Describe dataset
+3. Create histograms of data
+4. Value counts for all data columns
+
+- All code can be found in mpg_eda.ipynb this step will show potential for analysis 
+
+## Rename a column and add column
+1. Rename name column to make/model
+2. Create new column labeled mpg above 25
+- This additional column will automatically group the mpg column into above and below 25 which will assist in creating visualizations later
+
+## Visualizations
+1. Visualization 1: 3 scatter plot charts showing relationships between horspower, weight, and mpg
+2. Visualization 2: Pie chart showing the percentage above and below 25 mpg based on number of cylinders
+3. Visualization 3: Stacked area chart showing origin of vehicle and representation of how many vehicles are above and below 25 mpg
